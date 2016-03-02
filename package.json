@@ -1,0 +1,16 @@
+{
+  "name": "mar1notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall":"cp node_modules/normalize.css/normalize.css src/scss/_normalize.scss",
+    "watch": "sass --watch src/scss:build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "normalize.css": "^3.0.3"
+  }
+}
