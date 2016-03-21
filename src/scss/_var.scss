@@ -1,1 +1,7 @@
-$color-red: #ff0000;
+// ALL MY VARIABLES: 
+
+var apiKey = 'bc07ec53213aef6a9dbcc30e18857274';
+var listDataCollection = new ForecastCollection();
+var cityModel = new Backbone.Model();
+var cityEl = document.querySelector('#city');
+var cityInfo = document.querySelector('.cityInfo');
